@@ -9,7 +9,7 @@
 
 ## :link: Link to web app(Deployment Link):
 
-https://blancc-page.github.io/angular-ip/
+https://gallery-app-ip.herokuapp.com/
 
 ### :computer: Setup
 To get a local copy up and running follow these simple example steps.
