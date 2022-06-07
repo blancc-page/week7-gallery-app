@@ -18,7 +18,7 @@ To get a local copy up and running follow these simple example steps.
 - cd into the project folder
 - run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
-## :ladybug: Known Bugs
+## :bug: Known Bugs
 Deployed site doesn't show images form database and admin details aren't working
 
 ## :trollface: Authors
