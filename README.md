@@ -16,7 +16,7 @@ To get a local copy up and running follow these simple example steps.
   
 ##### Cloning the repository:  
  ```bash 
-https://github.com/blancc-page/week7-gallery-app.git
+git clone https://github.com/blancc-page/week7-gallery-app.git
 ```
 ##### Navigate into the folder and install requirements  
  ```bash 
@@ -24,11 +24,11 @@ cd week7-gallery-app
 ```
 ##### Install and activate Virtual  
  ```bash 
-- python3 -m venv virtual - source virtual/bin/activate  
+python3 -m venv virtual - source virtual/bin/activate  
 ```  
 ##### Install Dependencies  
  ```bash 
- pip install -r requirements.txt 
+pip install -r requirements.txt 
 ```  
  ##### Setup Database  
   SetUp your database User,Password, Host then make migrate  
@@ -37,21 +37,21 @@ python manage.py makemigrations gallery
  ``` 
  Now Migrate  
  ```bash 
- python manage.py migrate 
+python manage.py migrate 
 ```
 ##### Run the application  
  ```bash 
- python manage.py runserver 
+python manage.py runserver 
 ``` 
 ##### Testing the application  
  ```bash 
- python manage.py test 
+python manage.py test 
 ```
 Open the application on your browser `127.0.0.1:8000`.  
   
 
 ## :bug: Known Bugs
-Deployed site doesn't show images form database and admin details aren't working
+Deployed site has no known bugs.
 
 ## :trollface: Authors
 
