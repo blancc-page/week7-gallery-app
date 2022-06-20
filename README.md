@@ -13,10 +13,42 @@ https://gallery-app-ip.herokuapp.com/
 
 ### :computer: Setup
 To get a local copy up and running follow these simple example steps.
-
-- open your terminal, and run 'git clone https://github.com/blancc-page/angular-ip' to clone the repository to your computer  
-- cd into the project folder
-- run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+  
+##### Cloning the repository:  
+ ```bash 
+https://github.com/blancc-page/week7-gallery-app.git
+```
+##### Navigate into the folder and install requirements  
+ ```bash 
+cd week7-gallery-app 
+```
+##### Install and activate Virtual  
+ ```bash 
+- python3 -m venv virtual - source virtual/bin/activate  
+```  
+##### Install Dependencies  
+ ```bash 
+ pip install -r requirements.txt 
+```  
+ ##### Setup Database  
+  SetUp your database User,Password, Host then make migrate  
+ ```bash 
+python manage.py makemigrations gallery
+ ``` 
+ Now Migrate  
+ ```bash 
+ python manage.py migrate 
+```
+##### Run the application  
+ ```bash 
+ python manage.py runserver 
+``` 
+##### Testing the application  
+ ```bash 
+ python manage.py test 
+```
+Open the application on your browser `127.0.0.1:8000`.  
+  
 
 ## :bug: Known Bugs
 Deployed site doesn't show images form database and admin details aren't working
