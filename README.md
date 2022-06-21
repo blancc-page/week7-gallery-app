@@ -48,6 +48,16 @@ python manage.py runserver
 python manage.py test 
 ```
 Open the application on your browser `127.0.0.1:8000`.  
+
+## Behaviour Driven Development
+
+> A user should be able to:
+
+- View different photos.
+- Click on a single photo to expand it and also view the details of the photo.
+- Search for different categories of photos. (ie. Sports, Books)
+- Copy a link to the photo to share with my friends.
+- View photos based on the location they were taken.
   
 
 ## :bug: Known Bugs
